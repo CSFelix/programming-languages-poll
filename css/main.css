@@ -1,0 +1,50 @@
+/*
+	**************
+	* Email Form *
+	**************
+*/
+.contact_form_input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline:  none;
+}
+
+.button {
+	cursor: pointer;
+	padding: 5px;
+	border: 3px solid #7159c1;
+	border-radius: 10px;
+	transition:  all 0.3s ease;
+}
+
+.button:hover, .button:active { opacity:  0.8; }
+
+/*
+	***************
+	* Metric Card *
+	***************
+*/
+[data-testid="metric-container"] { transition:  all 0.3s ease; }
+[data-testid="metric-container"]:hover { opacity:  0.75; transform: translateY(-10px); }
+
+/*
+	*********************
+	* Credits Container *
+	*********************
+*/
+a { text-decoration: none; }
+
+/*
+	*******************************
+	* Streamlit Native Components *
+	*******************************
+*/
+header { visibility: hidden; }
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
